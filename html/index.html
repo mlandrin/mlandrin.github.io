@@ -7,9 +7,14 @@
   <style>
     body{
     font-size: 16px;
-}
+    }
 header,
 main,
+footer{
+  max-width: 760px;
+  margin: 0 auto;
+}
+header,
 footer{
   border: 1px solid #bbb;
   padding: 1rem;
@@ -17,8 +22,8 @@ footer{
 }
 header img{
 float: right;
-width: 200px;
-height: auto;
+width: auto;
+height: 300px;
 }
   </style>
 </head>
@@ -31,10 +36,18 @@ height: auto;
 <h2>WDD 230: Assignment Portal</h2>
 <ul>
   <li>Lesson 2: <a ref ="#">Design Principles Document</a></li>
-  <li>Lesson 2: <a ref ="#">Design Principles Document</a></li>
-  <li>Lesson 2: <a ref ="#">Design Principles Document</a></li>
+  <li>Lesson 3: <a ref ="#">Website Planning Document</a></li>
+  <li>Lesson 4: <a ref ="#">Preston Town Page</a></li>
 </ul>
 </main>
-<footer> </footer> 
+<footer> 
+  &copy; | Morgan Landrin | AZ | <a href = "https://www.byui.edu/online">BYUI Online Learning</a>
+  <p>
+    Last Modified: <span id = "lastmod"></span>
+  </p>
+</footer> 
+<script>
+  document.querySelector('#lastmod').textContent =document.lastModified;
+</script>
 </body>
 </html>
