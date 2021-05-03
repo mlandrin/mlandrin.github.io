@@ -13,10 +13,5 @@ header,
 footer{
 border: 1px solid #bbb;
 padding: 1rem;
-background-color: peru;  
-}
-header img{
-float: right;
-width: 200px;
-
+background-color: peru;
 }
