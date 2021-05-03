@@ -15,3 +15,7 @@ border: 1px solid #bbb;
 padding: 1rem;
 background-color: peru;
 }
+header img {
+  float:right;
+  height: 400px;
+}
